@@ -1,5 +1,43 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.mainbox {
+  border-spacing: 0;
+  width: 100%;
+  table-layout: fixed;
+  margin: auto;
+  border: solid #dedede 1px;
+  text-align: center;
+}
+
+.mainbox th{
+  padding: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  border: solid #dedede 1px;
+  text-align: center;
+  vertical-align: middle;
+}
+.mainbox　tr, .mainbox td{
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  border: solid #dedede 1px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.mainbox tr:nth-child(2n+1) {
+  background-color: #ecf1f2;
+}
+
+.mainbox tr:first-child, .mainbox th:first-child{
+  background-color: #24a;
+  color: #fff;
+}
+
+.mainbox tr:last-child {
+  border-top: dashed #000 2px;
+}
 
 /* 回答はここに書いてね */
