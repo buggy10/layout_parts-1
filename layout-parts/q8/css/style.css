@@ -1,5 +1,41 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q8box {
+  display: table;
+  width: 100%
+}
 
+.minibox {
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+}
+
+.box1 {
+  background-color: #fdc8b8;
+  width: 100px;
+}
+
+.box2 {
+  background-color: #e0abd9;
+}
+
+.box3 {
+  background-color: #b6d8ed;
+  width: 100px;
+}
+
+.box4 {
+  background-color: #e5d32e;
+}
+
+.box5 {
+  background-color: #e4e67c;
+}
+
+.box6 {
+  background-color: #8fdcad;
+  width: 500px;
+}
 /* 回答はここに書いてね */
