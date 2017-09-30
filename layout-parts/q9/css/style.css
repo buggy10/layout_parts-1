@@ -1,5 +1,63 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.mainbox {
+  background-color: #ecf1f2;
+  padding: 20px;
+}
+
+.box_grid {
+  font-size: 0;
+  margin: 20px -10px;
+}
+
+.q7_grid {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.box_grid:first-child {
+  margin: 0 -10px;
+}
+
+.box_grid:last-child {
+  margin: 0 -10px;
+}
+
+.grid12 {
+  width: 100%;
+}
+
+.grid6 {
+  width: 50%;
+}
+
+.grid4 {
+  width: 33.3333%;
+}
+
+.grid3 {
+  width: 25%;
+}
+
+.grid2_4 {
+  width: 20%;
+}
+
+.grid2 {
+  width: 16.666%;
+}
+
+.item {
+  background-color: #fff;
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+
+
 
 /* 回答はここに書いてね */
