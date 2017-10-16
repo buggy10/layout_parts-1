@@ -37,7 +37,54 @@
         ・input(type="submit")
         -->
         <!-- 回答はここに書いてね -->
-
+        <form class="mainbox">
+          <div class="tittle_box">
+            <p class="tittle_txet">Form Exercise</p>
+          </div>
+          <div class="form_box clearfix">
+            <div class="left_box">
+              <ul class="list">
+                <li class="name_box clearfix">
+                  <p class="item_list">name<span class="indispensable"> *</span></p>
+                  <div class="input_box">
+                    <input class="input_box_inner input_field" type="text" name="q10_1" required></input>
+                  </div>
+                </li>
+                <li class="sex_box clearfix">
+                  <p class="item_list">Sex<span></span></p>
+                  <div class="input_box">
+                    <label class="sex_btn">
+                      <input class="q10_sex_btn" type="radio" name="q10_2" value="male">
+                      <span class="q10_sex_txt">male</span>
+                    </label>
+                    <label class="sex_btn">
+                      <input class="q10_sex_btn" type="radio" name="q10_2" value="female">
+                      <span class="q10_sex_txt">female</span>
+                    </label>
+                  </div>
+                </li>
+                <li class="email_box clearfix">
+                  <p class="item_list">Email<span class="indispensable"> *</span></p>
+                  <div class="input_box">
+                    <input class="input_box_inner input_field" type="text" name="q10_3" placeholder="ex) hoge@gmail.com" required></input>
+                  </div>
+                </li>
+                <li class="tel_box clearfix">
+                  <p class="item_list">Telephone</p>
+                  <div class="input_box">
+                    <input class="input_box_inner input_field" type="text" name="q10_4" placeholder="ex) 08012345678"></input>
+                  </div>
+                </li>
+              </ul>
+              <div class="submit_btn">
+                <input class="sub_btn input_field" type="submit" value="submit"></input>
+              </div>
+            </div>
+            <div class="right_box">
+              <textarea class="msg_box input_field" type="text" name="q10_5" placeholder="Please fill in the message..."></textarea>
+            </div>
+          </div>
+        </form>
         <!-- 回答はここに書いてね -->
     </div>
 </div>
