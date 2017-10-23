@@ -10,7 +10,7 @@
   text-align: center;
 }
 
-.mainbox th{
+.mainbox th {
   padding: 10px;
   font-size: 18px;
   line-height: 26px;
@@ -18,7 +18,8 @@
   text-align: center;
   vertical-align: middle;
 }
-.mainbox　tr, .mainbox td{
+
+.mainbox　tr, .mainbox td {
   padding: 10px;
   font-size: 16px;
   line-height: 22px;
@@ -27,11 +28,12 @@
   vertical-align: middle;
 }
 
-.mainbox tr:nth-child(2n+1) {
+.mainbox tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
-.mainbox tr:first-child, .mainbox th:first-child{
+.mainbox tr:first-child,
+.mainbox th:first-child {
   background-color: #24a;
   color: #fff;
 }
