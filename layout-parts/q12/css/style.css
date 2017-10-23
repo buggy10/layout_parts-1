@@ -1,5 +1,35 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.ballon_box {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid #222;
+  border-radius: 30px;
+}
 
+.comment {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.ballon_box::before {
+  content: "";
+  border: 20px solid transparent;
+  border-top: 20px solid #222;
+  position: absolute;
+  left: 6%;
+  bottom: -40px;
+}
+
+.ballon_box::after {
+  content: "";
+	border: 20px solid transparent;
+	border-top: 20px solid #fff;
+	position: absolute;
+	left: 6%;
+	bottom: -33px;
+}
 /* 回答はここに書いてね */
