@@ -16,7 +16,7 @@
 }
 
 .middlebox {
-  float:left;
+  float: left;
   width: 230px;
   padding: 20px;
   background-color: #3274ae;
@@ -24,8 +24,9 @@
 }
 
 .middlebox:first-child {
-  margin-left: 0px;
+  margin-left: 0;
 }
+
 .textbox {
   background-color: #eaf4ff;
   border: solid 10px #022366;
