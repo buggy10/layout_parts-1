@@ -51,7 +51,7 @@
   background-color: #8b7a5e;
   z-index: 4;
   top: 280px;
-  left:280px;
+  left: 280px;
 }
 
 .no5 {
@@ -64,7 +64,7 @@
 .no6 {
   background-color: #fffee4;
   z-index: 6;
-  top:280px;
+  top: 280px;
   left: 120px;
 }
 
@@ -83,12 +83,13 @@
 }
 
 .no8::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 20px;
-    height: 20px;
-    background-color: #FFEFD3;
-    content: "";
-    
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+  content: "";
+}
+
 /* 回答はここに書いてね */
