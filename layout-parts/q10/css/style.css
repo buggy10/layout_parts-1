@@ -55,7 +55,7 @@
   text-align: right;
 }
 
-.list > li:not(:first-child){
+.list > li:not(:first-child) {
   margin-top: 20px;
 }
 
@@ -84,7 +84,7 @@
   width: 100%;
   padding: 5px;
   border-radius: 3px;
-  background-color: #FFF;
+  background-color: #fff;
   font-size: 12px;
   line-height: 12px;
   box-sizing: border-box;
@@ -126,7 +126,7 @@
   width: 8px;
   height: 8px;
   margin-top: -4px;
-  background-color: #00BCD4;
+  background-color: #00bcd4;
   border-radius: 50%;
   content: '';
 }
@@ -138,8 +138,8 @@
 .sub_btn {
   padding: 0 10px;
   border-radius: 5px;
-  background-color: #00BCD4;
-  color: #FFF;
+  background-color: #00bcd4;
+  color: #fff;
   cursor: pointer;
   font-size: 16px;
   line-height: 26px;
@@ -155,7 +155,7 @@
   height: 203px;
   padding: 10px;
   border-radius: 3px;
-  background-color: #FFF;
+  background-color: #fff;
   font-size: 12px;
   box-sizing: border-box;
   resize: none;
